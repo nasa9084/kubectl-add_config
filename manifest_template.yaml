@@ -32,7 +32,7 @@ spec:
     Usage:
       `kubectl add-config -f NEW_KUBECONFIG`
       or if you using on macOS, new config is copied in clipboard then:
-        `pbpaste | kubectl add-config`
+      `pbpaste | kubectl add-config`
   description: |
     This plugin merges a new kubeconfig file into your local existing kubeconfig using kubectl config add-XXX commands.
     You can pass kubeconfig file path via `-f` option, if not specified, this plugin loads kubeconfig from stdin.
