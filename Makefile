@@ -5,7 +5,7 @@ BIN_DIR = ./bin
 DIST_DIR = ./dist
 TAGGED_VERSION = $(shell git describe --abbrev=0 --tags 2> /dev/null)
 VERSION ?= $(if $(TAGGED_VERSION),$(TAGGED_VERSION),v0.0.0)
-GIT_HASH = no-hash#$(shell git rev-parse --short HEAD)
+GIT_HASH = $(shell git rev-parse --short HEAD)
 TARBALL_NAME = kubectl-add_config-$(VERSION).tar.gz
 
 
