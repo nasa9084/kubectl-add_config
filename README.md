@@ -15,9 +15,3 @@ Go 1.11 or later is required because this application using go mod for dependenc
 ``` shell
 $ make build
 ```
-
-### Packaging for [krew](https://github.com/kubernetes-sigs/krew)
-
-``` shell
-$ make package
-```
