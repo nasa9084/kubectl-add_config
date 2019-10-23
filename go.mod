@@ -1,4 +1,4 @@
-module github.com/nasa9084/kubectl-add-config
+module github.com/nasa9084/kubectl-add_config
 
 go 1.12
 
